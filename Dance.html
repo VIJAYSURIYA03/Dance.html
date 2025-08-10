@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(243, 236, 236);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+        }
+        .dancer{
+            animation: dance 0.8s infinite ease-in-out ;
+            transform-origin: bottom center;
+        }
+        @keyframes dance {
+            0%{
+                transform: rotate(-20deg) translateY(0px);
+            }
+            100%{
+                transform: rotate(20deg) translateY(-20px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dancer">
+        <p>
+            &#128131
+            &#128150
+            &#128131
+            
+        </p>
+        
+    </div>
+</body>
+</html>
